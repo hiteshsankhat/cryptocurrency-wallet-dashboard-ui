@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.side-bar {
+  background: #fbfbfb;
+  padding-top: 3rem;
+}
+
+.left-side-bar {
+  border-right: 1px solid #ededed;
+  width: 8.875rem;
+}
+
+.main {
+  flex-grow: 0.75;
+  padding-top: 3rem;
+}
+
+.right-side-bar {
+  /* flex-grow: 0.15; */
+  width: 22rem;
+  border-left: 1px solid #ededed;
+}

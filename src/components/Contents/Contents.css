@@ -1,0 +1,308 @@
+.contents {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  height: 3.125rem;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.7rem;
+}
+
+.search-bar {
+  padding-left: 2rem;
+  height: 2.5rem;
+  width: 15rem;
+  border: none;
+  background: #f2f4f5;
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #9a9fad;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  color: #9a9fad;
+}
+
+.menus {
+  display: flex;
+  color: #9a9fad;
+  gap: 1rem;
+}
+
+.content-data {
+  margin: 3rem 0;
+}
+
+.crypto-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 15.125rem;
+  height: 17.75rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0px 38.5185px 25.4815px rgba(255, 225, 225, 0.0364444),
+    0px 20px 13px rgba(255, 225, 225, 0.03),
+    0px 8.14815px 6.51852px rgba(255, 225, 225, 0.0235556),
+    0px 1.85185px 3.14815px rgba(255, 225, 225, 0.0144444);
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.name-up-by {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 1.5px;
+}
+
+.up-by {
+  padding: 0.5rem;
+  height: 1.9rem;
+  width: 4rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 8px;
+}
+
+.to {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.price {
+  font-family: Tomorrow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 35px;
+  color: #0f111d;
+}
+
+.value {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9d9dae;
+}
+
+.transaction-details {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.history,
+.recent-swap {
+  flex: 0.5;
+}
+
+.transaction-text,
+.title,
+.pair-value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-text .text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #061423;
+}
+
+.mouth-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f2fb;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem 0.3rem 0.7rem;
+}
+
+.month {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #35404e;
+}
+
+.transaction-in {
+  margin-top: 1rem;
+}
+
+.transaction-in-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a6aec9;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.price {
+  font-family: Tomorrow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #061423;
+}
+
+.recent-swap-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #061423;
+}
+
+.view-more {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  color: #2a316f;
+  background: #f1f2fb;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem 0.3rem 0.7rem;
+}
+
+.pair-value {
+  margin: 1rem 0 0 0;
+  align-items: center;
+}
+
+.pair-text,
+.value-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #a6aec9;
+}
+
+.all-swaps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pair {
+  display: flex;
+  align-items: center;
+}
+
+.swap-data {
+  width: 10.375rem;
+  margin-left: 0.5rem;
+}
+
+.to-from {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.to,
+.from {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2a316f;
+}
+
+.pair-value .value {
+  font-family: Tomorrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  color: #2a316f;
+}
+
+.swap-icon {
+  width: 3.75rem;
+  height: 3.125rem;
+  position: relative;
+}
+
+.coin-icon {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.bitcoin {
+  background: #fdeee8;
+  bottom: 0;
+  left: 0;
+}
+
+.ripple {
+  background: #F1F2FB;
+  top: 0;
+  right: 0;
+}

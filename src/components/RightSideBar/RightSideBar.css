@@ -1,0 +1,92 @@
+.right-sidebar {
+  width: 12rem;
+  margin: 0 auto;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.8px;
+  color: #000000;
+}
+
+.divider {
+  width: 70%;
+  margin: 0 auto;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  border: 1px solid #252d49;
+}
+
+.stat-details {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.total-mined {
+  margin: 3rem 0;
+}
+
+.stat-container {
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.stat-icon {
+  width: 3.1875rem;
+}
+
+.stat-type {
+  font-family: Tomorrow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #9a9fad;
+}
+
+.stat-value {
+  font-family: Tomorrow;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.swap {
+  width: 12.9375rem;
+  height: 3.625rem;
+  background: #f26c6d;
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.yield-info {
+  margin-top: 2.25rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9a9fad;
+}

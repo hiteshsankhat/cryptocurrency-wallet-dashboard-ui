@@ -1,0 +1,38 @@
+.left-sidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin: 1rem 0 4rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  width: 55px;
+  height: 55px;
+}
+
+.menu-item > p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.24px;
+  color: #9a9fad;
+}
